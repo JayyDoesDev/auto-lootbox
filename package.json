@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "J_DDev <69683068+JayyDoesDev@users.noreply.github.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "cake build && node js/lootbox.js"
+  },
   "dependencies": {
     "dotenv": "^16.4.5",
     "which": "git+https://github.com/Kiiro-Dev/node-which.git"
